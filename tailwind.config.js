@@ -24,6 +24,17 @@ module.exports = {
                     800: '#1B1C1D',
                     900: '#121314',
                 },
+                'forest-green': {
+                    100: '#E9F3E9',
+                    200: '#C8E2C8',
+                    300: '#A7D1A7',
+                    400: '#64AE64',
+                    500: '#228B22',
+                    600: '#1F7D1F',
+                    700: '#145314',
+                    800: '#0F3F0F',
+                    900: '#0A2A0A',
+                },
             },
             cursor: {
                 'e-resize': 'e-resize'
@@ -46,6 +57,9 @@ module.exports = {
                     'to': {opacity: 1}
                 }
             },
+            opacity: {
+                '15': '.15'
+            }
         },
         fontFamily: {
             fancy: ['Righteous', 'cursive'],

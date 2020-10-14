@@ -1,14 +1,14 @@
 <template>
     <div class="p-2">
-        <h1 class="text-4xl my-2 font-bold">Kenny's Portfolio</h1>
+        <h1 class="text-4xl font-bold">Kenny's Portfolio</h1>
         <hr />
-        <p class="my-2">
+        <p>
             Hi, thanks for taking the time to look at my online portfolio! The page is based on a typical dark-themed IDE (mostly JetBrains products) and
             is meant to showcase my skills and experience as a Software Developer in a fun way!
         </p>
 
         <h2 class="text-3xl font-bold">Navigation</h2>
-        <p class="mb-2">
+        <p>
             To navigate the website, use the file navigator on the left hand side (or under the dropdown tab if on mobile) to access the different pages.
         </p>
 

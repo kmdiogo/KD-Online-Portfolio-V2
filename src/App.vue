@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col flex-shrink-0 h-screen text-gray-100 font-body bg-darcula-700"
+    <div class="flex flex-col flex-shrink-0 h-screen font-body bg-darcula-700 text-gray-200"
          @mouseup="handleMouseUp" @mousemove="handleMouseMove" @mouseleave="handleMouseUp"
     >
         <div class="bg-darcula-500 p-1 border-b border-black">
@@ -14,7 +14,7 @@
 
             <main class="flex flex-col flex-grow overflow-auto">
                 <PageTabs class="flex items-center border-b border-black bg-darcula-500 flex-shrink-0 px-4 py-2" />
-                <router-view class="flex-grow overflow-auto h-0" />
+                <router-view class="flex-grow overflow-auto h-0 p-5" />
             </main>
         </div>
 
